@@ -1,6 +1,5 @@
--- ============================================
+
 -- SECTION 2: SORTING & TOP-N
--- ============================================
 
 USE bikestores;
 
@@ -23,6 +22,5 @@ FROM production.products
 WHERE model_year = 2018
 ORDER BY list_price ASC;
 
--- ==========
 -- END
--- ==========
+
